@@ -1,0 +1,30 @@
+{
+  "name": "node-serde",
+  "version": "0.0.1",
+  "description": "NodeJS SerDe with Hortonworks Schema Registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickerlyman/node-serde.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rickerlyman/node-serde/issues"
+  },
+  "homepage": "https://github.com/rickerlyman/node-serde#readme",
+  "dependencies": {
+    "avsc": "^5.0.2",
+    "bluebird": "^3.5.0",
+    "bunyan": "^1.8.10",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "sinon": "^2.3.2"
+  }
+}
